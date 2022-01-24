@@ -1,0 +1,12 @@
+C:\Users\sebas\source\repos\CrudGeneric\CrudGeneric\bin\Debug\net6.0\CrudGeneric.deps.json
+C:\Users\sebas\source\repos\CrudGeneric\CrudGeneric\bin\Debug\net6.0\CrudGeneric.dll
+C:\Users\sebas\source\repos\CrudGeneric\CrudGeneric\bin\Debug\net6.0\ref\CrudGeneric.dll
+C:\Users\sebas\source\repos\CrudGeneric\CrudGeneric\bin\Debug\net6.0\CrudGeneric.pdb
+C:\Users\sebas\source\repos\CrudGeneric\CrudGeneric\obj\Debug\net6.0\CrudGeneric.csproj.AssemblyReference.cache
+C:\Users\sebas\source\repos\CrudGeneric\CrudGeneric\obj\Debug\net6.0\CrudGeneric.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebas\source\repos\CrudGeneric\CrudGeneric\obj\Debug\net6.0\CrudGeneric.AssemblyInfoInputs.cache
+C:\Users\sebas\source\repos\CrudGeneric\CrudGeneric\obj\Debug\net6.0\CrudGeneric.AssemblyInfo.cs
+C:\Users\sebas\source\repos\CrudGeneric\CrudGeneric\obj\Debug\net6.0\CrudGeneric.csproj.CoreCompileInputs.cache
+C:\Users\sebas\source\repos\CrudGeneric\CrudGeneric\obj\Debug\net6.0\CrudGeneric.dll
+C:\Users\sebas\source\repos\CrudGeneric\CrudGeneric\obj\Debug\net6.0\ref\CrudGeneric.dll
+C:\Users\sebas\source\repos\CrudGeneric\CrudGeneric\obj\Debug\net6.0\CrudGeneric.pdb
