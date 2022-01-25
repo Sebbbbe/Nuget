@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace CrudGeneric.Models
 {
-    public class ModelGeneric
+    public class ModelGeneric<T> where T : class
     {
-        public int T1 { get; set; }
-        public string T2 { get; set; }
-
-        public List<string> T3 { get; set; }
-
+        public T T1 { get; set; }
+     
 
 
     }
