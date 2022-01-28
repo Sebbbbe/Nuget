@@ -9,6 +9,8 @@ namespace CrudGeneric.Repository.IRepository
 {
     public interface IRepositoryGeneric<T> where T : class
     {
+        Task<List<T>> FindAllGeneric();
+       
 
     }
 }

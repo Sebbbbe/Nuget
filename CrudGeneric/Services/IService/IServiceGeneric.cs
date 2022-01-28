@@ -8,7 +8,7 @@ namespace CrudGeneric.Services.IService
 {
     public interface IServiceGeneric<T> where T : class
     {
-        Task<List<T>> FindAllGeneric(T t);
-        Task<T> FindGeneric(T t);
+        Task<List<T>> FindAllGeneric();
+        
     }
 }

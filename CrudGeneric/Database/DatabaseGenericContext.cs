@@ -8,17 +8,19 @@ using CrudGeneric.Models;
 
 namespace CrudGeneric.Database
 {
-    public class DatabaseGeneric<T> : DbContext
+    public class DatabaseGenericContext<T> :  DbContext where T : class 
     {
-        public DatabaseGeneric(DbContextOptions<DatabaseGeneric<T>> options)
+        public DatabaseGenericContext(DbContextOptions<DatabaseGenericContext<T>> options)
             : base(options)
         {
 
         }
 
-        public DbSet<T> T { get; set; }
+        public DbSet<T> T1 { get; set; }
 
 
 
     }
+
+    
 }

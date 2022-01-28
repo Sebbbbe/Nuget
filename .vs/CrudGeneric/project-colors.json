@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2944491e-c2c7-4124-b33b-879d792fce66": {
+      "ProjectGuid": "2944491e-c2c7-4124-b33b-879d792fce66",
+      "DisplayName": "CrudGeneric",
+      "ColorIndex": 0
+    },
+    "b4ca79ae-5dff-419c-95bc-01874ed96cd2": {
+      "ProjectGuid": "b4ca79ae-5dff-419c-95bc-01874ed96cd2",
+      "DisplayName": "Test",
+      "ColorIndex": 1
+    },
+    "e0e82c96-1bd1-44fb-9b07-3cef06631ee0": {
+      "ProjectGuid": "e0e82c96-1bd1-44fb-9b07-3cef06631ee0",
+      "DisplayName": "Test1",
+      "ColorIndex": 2
+    },
+    "6bd6deea-5023-49a8-bee9-f9d17d37fcb0": {
+      "ProjectGuid": "6bd6deea-5023-49a8-bee9-f9d17d37fcb0",
+      "DisplayName": "Testing",
+      "ColorIndex": 3
+    },
+    "e771e70b-dcf9-44ad-8863-c7a2bb5f8a95": {
+      "ProjectGuid": "e771e70b-dcf9-44ad-8863-c7a2bb5f8a95",
+      "DisplayName": "API",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

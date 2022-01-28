@@ -5,10 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace CrudGeneric.Repository
 {
-    internal class RepositoryGeneric<T> : IRepositoryGeneric<T> where T : class
+    public class RepositoryGeneric<T> : IRepositoryGeneric<T> where T : class
     {
 
         private readonly DatabaseGenericContext<T> _databaseGenericContext;
@@ -16,14 +17,11 @@ namespace CrudGeneric.Repository
         {
             _databaseGenericContext = databaseGenericContext;
         }
-        public Task<List<T>> FindAllGeneric(T t)
-        {
-          return  _databaseGenericContext.T.ToList();
-        }
+        public async Task<List<T>> FindAllGeneric(){
 
-        public Task<T> FindOneGeneric(T t)
-        {
-            throw new NotImplementedException();
+            return await _databaseGenericContext.T1.ToListAsync();
         }
+    
+      
     }
 }

@@ -21,14 +21,11 @@ namespace CrudGeneric.Services
         }
 
 
-        public Task<List<T>> FindAllGeneric(T t)
+        public Task<List<T>> FindAllGeneric()
         {
-            return _repositoryGeneric.FindAllGeneric(t);
+            return _repositoryGeneric.FindAllGeneric();
         }
 
-        public Task<T> FindGeneric(T t)
-        {
-            return _repositoryGeneric.FindOneGeneric(t);
-        }
+     
     }
 }
