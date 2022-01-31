@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CrudGeneric.Services.IService
 {
-    public interface IServiceGeneric<T> where T : class
+    public interface IServiceGeneric<T,P> where T : class where P : class
     {
-        Task<List<T>> FindAllGeneric();
+        Task<List<P>> FindAllGeneric();
         
     }
 }

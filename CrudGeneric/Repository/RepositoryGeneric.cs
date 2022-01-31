@@ -9,17 +9,17 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CrudGeneric.Repository
 {
-    public class RepositoryGeneric<T> : IRepositoryGeneric<T> where T : class
+    public class RepositoryGeneric<T,P> : IRepositoryGeneric<T,P> where T : class where P : class
     {
 
-        private readonly DatabaseGenericContext<T> _databaseGenericContext;
-        public RepositoryGeneric(DatabaseGenericContext<T> databaseGenericContext)
+        private readonly DatabaseGenericContext<T,P> _databaseGenericContext;
+        public RepositoryGeneric(DatabaseGenericContext<T,P> databaseGenericContext)
         {
             _databaseGenericContext = databaseGenericContext;
         }
-        public async Task<List<T>> FindAllGeneric(){
+        public async Task<List<P>> FindAllGeneric(){
 
-            return await _databaseGenericContext.T1.ToListAsync();
+            return await _databaseGenericContext.P1.ToListAsync();
         }
     
       

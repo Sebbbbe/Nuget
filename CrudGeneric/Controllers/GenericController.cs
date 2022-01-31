@@ -10,19 +10,19 @@ using System.Threading.Tasks;
 
 namespace CrudGeneric.Controllers
 {
-    public class GenericController<T> : ControllerBase where T : class
+    public class GenericController<T,P> : ControllerBase where T : class where P : class
     {
 
-        private readonly IServiceGeneric<T> _serviceGeneric;
+        private readonly IServiceGeneric<T, P> _serviceGeneric;
 
 
-        public GenericController(IServiceGeneric<T> serviceGeneric)
+        public GenericController(IServiceGeneric<T, P> serviceGeneric)
         {
             _serviceGeneric = serviceGeneric;
         }
 
         [HttpGet]
-        public async Task<List<T>> FindAllGeneric()
+        public async Task<List<P>> FindAllGeneric()
         {
             return await _serviceGeneric.FindAllGeneric();
         }

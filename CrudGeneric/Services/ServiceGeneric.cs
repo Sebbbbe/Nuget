@@ -10,18 +10,18 @@ using System.Threading.Tasks;
 
 namespace CrudGeneric.Services
 {
-    public class ServiceGeneric<T> : IServiceGeneric<T> where T : class
+    public class ServiceGeneric<T, P> : IServiceGeneric<T,P> where T : class where P :class
     {
 
-        private readonly RepositoryGeneric<T> _repositoryGeneric;
+        private readonly RepositoryGeneric<T,P> _repositoryGeneric;
 
-        public ServiceGeneric(RepositoryGeneric<T> repositoryGeneric)
+        public ServiceGeneric(RepositoryGeneric<T,P> repositoryGeneric)
 {
             _repositoryGeneric = repositoryGeneric;
         }
 
 
-        public Task<List<T>> FindAllGeneric()
+        public Task<List<P>> FindAllGeneric()
         {
             return _repositoryGeneric.FindAllGeneric();
         }

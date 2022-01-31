@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace CrudGeneric.Repository.IRepository
 {
-    public interface IRepositoryGeneric<T> where T : class
+    public interface IRepositoryGeneric<T,P>  where T : class
     {
-        Task<List<T>> FindAllGeneric();
+        Task<List<P>> FindAllGeneric();
        
 
     }
